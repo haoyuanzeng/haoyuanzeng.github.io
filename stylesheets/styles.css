@@ -239,7 +239,11 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
-    text-align: left;
+    text-align: justify;
+  }
+
+  hr {
+    width: auto;
   }
 
   header a small {
@@ -266,10 +270,15 @@ footer {
     padding:0;
   }
 
+  hr {
+    width: auto;
+  }
+
   header ul, header p.view {
     position:static;
   }
 
+  
   pre, code {
     word-wrap:normal;
   }
@@ -282,6 +291,10 @@ footer {
 
   .flex-container {
     flex-direction: column;
+  }
+
+  hr {
+    width: auto;
   }
 
   header ul {
@@ -299,4 +312,9 @@ footer {
     font-size:12pt;
     color:#444;
   }
+
+  hr {
+    width: auto;
+  }
+
 }
