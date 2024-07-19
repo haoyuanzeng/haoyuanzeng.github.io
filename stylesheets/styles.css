@@ -190,7 +190,7 @@ header ul a strong {
 }
 
 section {
-  width:auto;
+  width: auto;
   padding-bottom:50px;
   text-align: justify;
 }
@@ -203,6 +203,7 @@ hr {
   border:0;
   background:#e5e5e5;
   height:2px;
+  width: auto;
   margin:0;
 }
 
