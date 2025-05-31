@@ -190,6 +190,7 @@ header ul a strong {
 }
 
 section {
+  border: 0;
   width: auto;
   padding-bottom:50px;
   text-align: justify;
