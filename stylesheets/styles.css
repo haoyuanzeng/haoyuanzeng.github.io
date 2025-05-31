@@ -2,13 +2,13 @@ body {
   background-color: #fff;
   padding:50px;
   font: 100% -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-family: palatino, sans-serif;
+  font-family: Arial, sans-serif;
   color:#595959;
   font-weight:400;
 }
 
 .wrapper {
-  width:850px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -288,6 +288,7 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+    word-wrap:break-word;
   }
 
   .flex-container {
