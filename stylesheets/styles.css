@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 100% -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-family: Arial, sans-serif;
+  font-family: Palatino, Arial, sans-serif;
   color:#595959;
   font-weight:400;
 }
@@ -41,13 +41,13 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-family: Palatino;
+  font-family: Palatino, serif;
   font-size:2.5em;
   font-weight: 500;
 }
 
 h2 {
-  font-family: Palatino;
+  font-family: Palatino, serif;
   font-size: 1.7em;
   color:#393939;
   font-weight: 500;
