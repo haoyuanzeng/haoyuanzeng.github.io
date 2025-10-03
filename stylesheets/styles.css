@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  width:900px;
+  width:1200px;
   margin:0 auto;
 }
 
@@ -17,9 +17,17 @@ body {
   flex-direction: row;
 }
 
-.flex-child {
+/* .flex-child {
   flex: 1;
-}  
+}   */
+
+.flex-child.one {
+  width: 40%;
+}
+
+.flex-child.two {
+  width: 60%;
+}
 
 .flex-child:first-child {
   margin-right: 20px;
@@ -42,15 +50,30 @@ h1, h2, h3 {
 
 h1 {
   font-family: Palatino, serif;
-  font-size:2.5em;
+  font-size:3.5em;
   font-weight: 500;
 }
 
 h2 {
   font-family: Palatino, serif;
-  font-size: 1.7em;
+  font-size: 2em;
   color:#393939;
   font-weight: 500;
+}
+
+p {
+  font-size:1.2em;
+}
+
+dt {
+  font-size: 1.5em;
+  color:#444;
+  font-weight:500;
+  margin-bottom: 10px;
+}
+
+dd {
+  font-size: 1.3em;
 }
 
 h3, h4, h5, h6 {
@@ -110,12 +133,7 @@ th, td {
   border-bottom:1px solid #e5e5e5;
 }
 
-dt {
-  font-size: 1.2em;
-  color:#444;
-  font-weight:500;
-  margin-bottom: 10px;
-}
+
 
 th {
   color:#444;
