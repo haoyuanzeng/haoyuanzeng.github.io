@@ -59,21 +59,38 @@ h2 {
   font-size: 2em;
   color:#393939;
   font-weight: 500;
+  padding-bottom:0px;
+}
+
+section {
+  border: 0;
+  width: auto;
+  padding-top:20px;
+  text-align: justify;
 }
 
 p {
   font-size:1.2em;
+  text-align: justify;
 }
 
+dl {
+  padding-bottom: 2px;
+  text-align: justify;
+}
 dt {
   font-size: 1.5em;
   color:#444;
   font-weight:500;
   margin-bottom: 10px;
+  padding-top: 15px;
+  text-align: justify;
 }
 
 dd {
   font-size: 1.3em;
+  padding-bottom: 10px;
+  text-align: justify;
 }
 
 h3, h4, h5, h6 {
@@ -207,13 +224,6 @@ header ul a strong {
   color:#222;
 }
 
-section {
-  border: 0;
-  width: auto;
-  padding-bottom:50px;
-  text-align: justify;
-}
-
 small {
   font-size:11px;
 }
@@ -235,7 +245,7 @@ footer {
   /*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1200px) {
 
   div.wrapper {
     width:auto;
@@ -257,7 +267,7 @@ footer {
   section {
     border:0;
     padding:20px 0;
-    margin:0 0 0px;
+    margin:0 0 20px;
     text-align: justify;
   }
 
@@ -285,6 +295,14 @@ footer {
   .flex-container {
     flex-direction: column;
   }
+
+  .flex-child.one {
+  width: 100%;
+  }
+
+  .flex-child.two {
+  width: 100%;
+  } 
 
   header {
     padding:0;
@@ -314,6 +332,14 @@ footer {
   .flex-container {
     flex-direction: column;
   }
+
+  .flex-child.one {
+  width: 100%;
+  }
+
+  .flex-child.two {
+  width: 100%;
+  } 
 
   hr {
     width: auto;
