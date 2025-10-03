@@ -22,11 +22,11 @@ body {
 }   */
 
 .flex-child.one {
-  width: 40%;
+  width: 35%;
 }
 
 .flex-child.two {
-  width: 60%;
+  width: 75%;
 }
 
 .flex-child:first-child {
