@@ -76,6 +76,7 @@ p {
 dl {
   margin-bottom: 30px;
   text-align: justify;
+  color:#000;
 }
 
 dt {
@@ -89,6 +90,7 @@ dt {
 
 dd {
   font-size: 1em;
+  color:#000;
   margin-bottom: 20px;
   text-align: justify;
 }
